@@ -39,6 +39,12 @@ AB Test란 웹 사이트 방문자를 임의로 두 집단으로 나누고, 한 
 
 ## 결과화면
 
-![테스트](https://github.com/FelixAhn/simple_flask_project_public/blob/main/template_A.png)
+-   template_A
+
+![template_A](https://github.com/FelixAhn/simple_flask_project_public/blob/main/template_A.png)
+
+-   template_B
+
+![template_B](https://github.com/FelixAhn/simple_flask_project_public/blob/main/template_B.png)
 
 UI는 BootStrap의 Examples의 Blog를 가져왔습니다.
