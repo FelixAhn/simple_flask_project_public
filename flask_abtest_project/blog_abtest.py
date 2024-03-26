@@ -13,7 +13,8 @@ app = Flask(__name__, static_url_path='/static')
 #추후 별도 서버간에 RestApi지원을 위해서 CORS 지원
 CORS(app)
 #flask 로그인과 관련(세션을 위해 고정된 값 설정)
-app.secret_key = 'hong_server2'
+#자신만의 secret_key를 설정하세요
+app.secret_key = ''
 
 #blue print등록
 app.register_blueprint(blog.blog_abtest, url_prefix='/blog')

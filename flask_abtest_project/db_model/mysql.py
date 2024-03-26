@@ -6,8 +6,8 @@ MYSQL_CONN = pymysql.connect(
     host= MYSQL_HOST,
     port = 3306,
     #자신의 mysql을 설정하세요(user, passwd)
-    user = 'hong',
-    passwd= 'felix',
+    user = '',
+    passwd= '',
     db = 'blog_db',
     charset= 'utf8'
 )
